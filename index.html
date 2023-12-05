@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Google Fit Analysis</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Google Fit Analysis</h1>
+    
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <button type="button" onclick="uploadFile()">Upload</button>
+        <button type="button" onclick="fetchPlots()">Fetch and analyze plots</button>
+    </form>
+    
+    <div id="result"></div>
+    
+    <div id="distancePlot"></div>
+
+    <div id="plot"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
