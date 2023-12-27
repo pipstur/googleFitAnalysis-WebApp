@@ -40,10 +40,10 @@ function fetchPlots() {
 
     if (formData.has('file')) {
         const plotUrls = [
-            'http://localhost:5000/average_steps_plot', 
-            'http://localhost:5000/heart_points_vs_steps',
-            'http://localhost:5000/mean_steps_by_day_of_week',
-            'http://localhost:5000/mean_steps_by_month',
+            'https://pipstur.pythonanywhere.com/average_steps_plot', 
+            'https://pipstur.pythonanywhere.com/heart_points_vs_steps',
+            'https://pipstur.pythonanywhere.com/mean_steps_by_day_of_week',
+            'https://pipstur.pythonanywhere.com/mean_steps_by_month',
             //'http://localhost:5000/activity_distribution'
             //'http://localhost:5000/walking_distribution_heatmap'
         ];
