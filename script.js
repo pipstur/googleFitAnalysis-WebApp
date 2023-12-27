@@ -2,7 +2,7 @@ function uploadFile() {
     var form = document.getElementById('uploadForm');
     var formData = new FormData(form);
 
-    fetch('http://localhost:5000/upload', {
+    fetch('https://pipstur.pythonanywhere.com/upload', {
         method: 'POST',
         body: formData
     })
